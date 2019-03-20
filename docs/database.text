@@ -1,0 +1,3 @@
+docker exec -it mongodb \
+    mongo --host localhost -u admin -p mypassword --authenticationDatabase admin \
+    --eval "db.getSiblingDB('nodeapi').createUser({user: 'myuser', pwd: 'mypassword', roles: [{role: 'readWrite', db: 'nodeapi'}]})"
