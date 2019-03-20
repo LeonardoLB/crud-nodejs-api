@@ -24,7 +24,7 @@ Cópie e cole o código abaixo
 ```
 docker exec -it mongodb \
     mongo --host localhost -u admin -p mypassword --authenticationDatabase admin \
-    --eval "db.getSiblingDB('wirecard').createUser({user: 'myuser', pwd: 'mypassword', roles: [{role: 'readWrite', db: 'wirecard'}]})"
+    --eval "db.getSiblingDB('nodeapi').createUser({user: 'myuser', pwd: 'mypassword', roles: [{role: 'readWrite', db: 'nodeapi'}]})"
 ```
 
 ### Instalando node_modules
