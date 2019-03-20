@@ -1,9 +1,13 @@
 const express = require('express')
+const cors = require('cors')
 const mongoose = require('mongoose')
 const requireDir = require('require-dir')
 
 // Starting app
 const app = express()
+
+// Cors permission
+app.use(cors())
 
 //Permite enviar dados no formato de json
 app.use(express.json())
