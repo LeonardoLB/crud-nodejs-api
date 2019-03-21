@@ -1,6 +1,6 @@
 # Simples CRUD usando NodeJs
 
-Este projeto é um simples exemplo para realizar um CRUD(create, read, update and delete)
+Este projeto é um simples exemplo de API RESTful para realizar um CRUD(create, read, update and delete)
 feito utilizando NodeJs e MongoDb, para controlar as rotas utilizaremos um micro framework
 conhecido como Express. O Intuito é manter o projeto o mais simples para facil entendimento.
 
