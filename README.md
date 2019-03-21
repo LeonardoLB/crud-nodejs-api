@@ -17,6 +17,13 @@ apenas cópie e cole as instruções que deixei e tudo vai ocorrer bem! ;D
 *Caso não queria utilizar o docker, se atente em somente manter os dados de autenticação corretos
  e lembre-se de alterar a string de conexão no arquivo server.js! Good Lucky!
 
+### Instale o mongodb no docker
+Assim que o serviço do docker estiver funcionando corretamente em seu pc, execute:
+```
+docker pull mongo
+```
+pronto agora você já tem um conteiner com a imagem do mongodb!
+
 ### Configure seu usuario no docker
 Cópie e cole o código abaixo
 ```
