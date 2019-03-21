@@ -1,11 +1,14 @@
 # Simples CRUD usando NodeJs
 
-### Requisitos (Contenha instalado em sua máquina)
+### Alguns softwares necessários
 
-- Npm package
+- Npm
 - MongoDb
 - NodeJS
 - Docker
+
+*Caso não queria utilizar o docker, se atente em somente manter os dados de autenticação corretos
+ e lembre-se de alterar a string de conexão no arquivo server.js
 
 ### Configure seu usuario no docker
 Cópie e cole o código abaixo
