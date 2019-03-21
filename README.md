@@ -1,6 +1,13 @@
 # Simples CRUD usando NodeJs
 
-### Alguns softwares necessários
+Este projeto é um simples exemplo para realizar um CRUD(create, read, update and delete)
+feito utilizando NodeJs e MongoDb, para controlar as rotas utilizaremos um micro framework
+conhecido como Express. O Intuito é manter o projeto o mais simples para facil entendimento.
+
+O Banco de dados optei em manter no Docker, se tiver dificuldades em usar docker, tudo bem!
+apenas cópie e cole as instruções que deixei e tudo vai ocorrer bem! ;D
+
+### Vamos precisar de ...
 
 - Npm
 - MongoDb
@@ -8,7 +15,7 @@
 - Docker
 
 *Caso não queria utilizar o docker, se atente em somente manter os dados de autenticação corretos
- e lembre-se de alterar a string de conexão no arquivo server.js
+ e lembre-se de alterar a string de conexão no arquivo server.js! Good Lucky!
 
 ### Configure seu usuario no docker
 Cópie e cole o código abaixo
