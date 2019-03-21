@@ -58,3 +58,9 @@ node server.js
 ```
 
 Nesse momento as rotas já estão funcionando
+
+### Rotas
+Verifique as rotas existentes no link abaixo:
+```
+https://documenter.getpostman.com/view/5267825/S17qSp7K
+```
